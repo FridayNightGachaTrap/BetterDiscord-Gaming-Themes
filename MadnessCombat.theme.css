@@ -1,0 +1,41 @@
+/**
+ * @name MadnessCombat
+ * @author DevilBro
+ * @version 1.0.5
+ * @description Allows you to use a background image without greatly altering the basic look of Discord
+ * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+ * @invite Jx3TjNS
+ * @donate https://www.paypal.me/MircoWittrien
+ * @patreon https://www.patreon.com/MircoWittrien
+ * @website https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground
+ * @authorId 278543574059057150
+ * @updateUrl https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
+
+:root {
+  --background: url('https://thumbs.gfycat.com/DependableHairyFerret-size_restricted.gif');
+  --backgroundsize: cover;
+  --backgroundblur: 0px;
+  --popout: var(--background);
+  --popoutsize: var(--backgroundsize);
+  --popoutblur: 0px;
+  --transparencycolor: 97,7,7;
+  --accentcolor: 23,113,6;
+  --backdrop: rgb(241,1,1,0.98);
+  --textshadow: transparent;
+  --transparencyalpha: 0.15;
+  --messagetransparency: 0.5;
+  --guildchanneltransparency: 0.15;
+  --memberlisttransparency: 0;
+  --font: 'Roboto';
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
+  --columns: 3;
+  --guildgap: 3;
+  --aligndms: 0;
+}

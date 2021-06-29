@@ -1,0 +1,36 @@
+/**
+ * @name MonikaDDLC
+ * @author DevilBro
+ * @version 1.0.5
+ * @description Allows you to use a background image without greatly altering the basic look of Discord
+ * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+ * @invite Jx3TjNS
+ * @donate https://www.paypal.me/MircoWittrien
+ * @patreon https://www.patreon.com/MircoWittrien
+ * @website https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground
+ * @authorId 278543574059057150
+ * @updateUrl https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+*/
+
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+
+:root {
+  --background: url('https://i.imgur.com/3tUDKOF.gif');
+  --backgroundsize: cover;
+  --backgroundblur: 2px;
+  --popout: var(--background);
+  --popoutsize: var(--backgroundsize);
+  --popoutblur: 0px;
+  --transparencycolor: 0,0,0;
+  --accentcolor: 190,78,180;
+  --backdrop: rgba(0,0,0,0.85);
+  --textshadow: transparent;
+  --transparencyalpha: 0.72;
+  --messagetransparency: 0.7;
+  --guildchanneltransparency: 0.15;
+  --memberlisttransparency: 0.18;
+  --font: Whitney;
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
+}
